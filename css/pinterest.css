@@ -1,0 +1,26 @@
+body{background-image: url(https://wallpaperset.com/w/full/9/5/3/17877.jpg);
+	background-repeat: no-repeat; 
+	background-size: cover;}
+
+.navbar{
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: space-between;
+			background-color: #fff;
+			padding: 15px;
+			background-color: transparent;
+		}
+
+.navbar a{text-decoration: none; 
+			color: white; padding: 10px; 
+			border-radius: 20px;}
+
+.logo {margin-left: 50px;}
+
+.list	{list-style: none;
+		display: flex;
+		gap: 25px;}
+
+.navbar a:hover{background-color: #ccc;}
+

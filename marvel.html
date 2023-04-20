@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pinterest</title>
+	<!-- website icon -->
+	<link rel="website icon" type="png" href="https://www.freepnglogos.com/uploads/pinterest-logo-p-png-0.png">
+	<link rel="stylesheet" type="text/css" href="css/pinterest.css">
+	<style type="text/css"> 
+		.main{display: grid;
+				grid-template-columns: auto auto auto auto auto;
+				grid-gap: 20px}
+
+		.item01{grid-column-start: 1; grid-column-end: 3; grid-row-start:1; grid-row-end:2;}
+		.item0{ grid-row-start:2; grid-row-end:4; grid-column-start: 1; grid-column-end: 2;}
+		.item1{grid-column-start: 3; grid-column-end: 4; grid-row-start:1; grid-row-end:3; }
+		.item2{grid-column-start: 4; grid-column-end: 5; grid-row-start:1; grid-row-end:3;}
+		.item3{grid-column-start: 5; grid-column-end: 6; grid-row-start:1; grid-row-end:3;}
+		.item06{ grid-row-start:4; grid-row-end:5; grid-column-start: 1; grid-column-end: 3;}
+		.item5{ grid-row-start:2; grid-row-end:4; grid-column-start: 2; grid-column-end: 3;}
+		.item6{ grid-row-start:3; grid-row-end:5; grid-column-start: 5; grid-column-end: 6;}
+		.item4{ grid-row-start:3; grid-row-end:5; grid-column-start: 3; grid-column-end: 4;}
+		.item7{ grid-row-start:3; grid-row-end:5; grid-column-start: 4; grid-column-end: 5;}
+		.item10{ grid-row-start:5; grid-row-end:7; grid-column-start: 3; grid-column-end: 4;}
+		.item6{ grid-row-start:3; grid-row-end:5; grid-column-start: 5; grid-column-end: 6;}
+		.item8{ grid-row-start:5; grid-row-end:7; grid-column-start: 1; grid-column-end: 2;}
+		.item9{ grid-row-start:5; grid-row-end:7; grid-column-start: 2; grid-column-end: 3;}
+		.item011{ grid-row-start:5; grid-row-end:6; grid-column-start: 4; grid-column-end: 6;}
+		.item12{ grid-row-start:6; grid-row-end:8; grid-column-start: 4; grid-column-end: 5;}
+		.item11{ grid-row-start:6; grid-row-end:8; grid-column-start: 5; grid-column-end: 6;}
+		.item13{ grid-row-start:7; grid-row-end:9; grid-column-start: 1; grid-column-end: 2;}
+		.item14{ grid-row-start:7; grid-row-end:9; grid-column-start: 2; grid-column-end: 3;}
+		.item15{ grid-row-start:7; grid-row-end:9; grid-column-start: 3; grid-column-end: 4;}
+		.item16{ grid-row-start:8; grid-row-end:10; grid-column-start: 4; grid-column-end: 5;}
+		.item17{ grid-row-start:8; grid-row-end:10; grid-column-start: 5; grid-column-end: 6;}
+		.item012{ grid-row-start:9; grid-row-end:10; grid-column-start: 1; grid-column-end: 3;}
+		.item018{ grid-row-start:9; grid-row-end:10; grid-column-start: 3; grid-column-end: 4;}
+
+@media only screen and (min-width:720px) and (max-width:1080px)
+{.main{display: grid;
+		grid-template-columns: auto auto auto auto;
+		grid-gap: 20px}
+
+		.item01{grid-column-start: 1; grid-column-end: 3; grid-row-start:1; grid-row-end:2;}
+		.item0{ grid-row-start:2; grid-row-end:4; grid-column-start: 1; grid-column-end: 2;}
+		.item1{grid-column-start: 3; grid-column-end: 4; grid-row-start:1; grid-row-end:3; }
+		.item2{grid-column-start: 4; grid-column-end: 5; grid-row-start:1; grid-row-end:3;}
+		.item06{ grid-row-start:4; grid-row-end:5; grid-column-start: 1; grid-column-end: 3;}
+		.item5{ grid-row-start:2; grid-row-end:4; grid-column-start: 2; grid-column-end: 3;}
+		.item4{ grid-row-start:3; grid-row-end:5; grid-column-start: 3; grid-column-end: 4;}
+		.item7{ grid-row-start:3; grid-row-end:5; grid-column-start: 4; grid-column-end: 5;}
+		.item6{ grid-row-start:3; grid-row-end:5; grid-column-start: 5; grid-column-end: 6;}
+		.item8{ grid-row-start:5; grid-row-end:7; grid-column-start: 1; grid-column-end: 2;}
+		.item9{ grid-row-start:5; grid-row-end:7; grid-column-start: 2; grid-column-end: 3;}
+		.item011{ grid-row-start:5; grid-row-end:6; grid-column-start: 3; grid-column-end: 5;}
+		.item12{ grid-row-start:6; grid-row-end:8; grid-column-start: 3; grid-column-end: 4;}
+		.item11{ grid-row-start:6; grid-row-end:8; grid-column-start: 4; grid-column-end: 5;}
+		.item13{ grid-row-start:7; grid-row-end:9; grid-column-start: 1; grid-column-end: 2;}
+		.item14{ grid-row-start:7; grid-row-end:9; grid-column-start: 2; grid-column-end: 3;}
+		.item16{ grid-row-start:8; grid-row-end:10; grid-column-start: 3; grid-column-end: 4;}
+		.item17{ grid-row-start:8; grid-row-end:10; grid-column-start: 4; grid-column-end: 5;}
+		.item012{ grid-row-start:9; grid-row-end:10; grid-column-start: 1; grid-column-end: 3;}
+		.item3{grid-column-start: 1; grid-column-end: 2; grid-row-start:10; grid-row-end:12;}
+		.item6{ grid-row-start:10; grid-row-end:12; grid-column-start: 2; grid-column-end: 3;}
+		.item10{ grid-row-start:10; grid-row-end:12; grid-column-start: 3; grid-column-end: 4;}
+		.item15{ grid-row-start:10; grid-row-end:12; grid-column-start: 4; grid-column-end: 5;}
+		.item018{ grid-row-start:12; grid-row-end:13; grid-column-start: 1; grid-column-end: 2;}
+	}
+@media only screen and (min-width:480px) and (max-width:720px)
+{.main{display: grid;
+		grid-template-columns: auto auto auto ;
+		grid-gap: 20px}
+
+		.item01{grid-column-start: 1; grid-column-end: 3; grid-row-start:1; grid-row-end:2;}
+		.item0{ grid-row-start:2; grid-row-end:4; grid-column-start: 1; grid-column-end: 2;}
+		.item1{grid-column-start: 3; grid-column-end: 4; grid-row-start:1; grid-row-end:3; }
+		.item06{ grid-row-start:4; grid-row-end:5; grid-column-start: 1; grid-column-end: 3;}
+		.item5{ grid-row-start:2; grid-row-end:4; grid-column-start: 2; grid-column-end: 3;}
+		.item4{ grid-row-start:3; grid-row-end:5; grid-column-start: 3; grid-column-end: 4;}
+		.item6{ grid-row-start:3; grid-row-end:5; grid-column-start: 5; grid-column-end: 6;}
+		.item8{ grid-row-start:5; grid-row-end:7; grid-column-start: 1; grid-column-end: 2;}
+		.item9{ grid-row-start:5; grid-row-end:7; grid-column-start: 2; grid-column-end: 3;}
+		.item12{ grid-row-start:6; grid-row-end:8; grid-column-start: 3; grid-column-end: 4;}
+		.item13{ grid-row-start:7; grid-row-end:9; grid-column-start: 1; grid-column-end: 2;}
+		.item14{ grid-row-start:7; grid-row-end:9; grid-column-start: 2; grid-column-end: 3;}
+		.item16{ grid-row-start:8; grid-row-end:10; grid-column-start: 3; grid-column-end: 4;}
+		.item012{ grid-row-start:9; grid-row-end:10; grid-column-start: 1; grid-column-end: 3;}
+		.item3{grid-column-start: 1; grid-column-end: 2; grid-row-start:10; grid-row-end:12;}
+		.item6{ grid-row-start:10; grid-row-end:12; grid-column-start: 2; grid-column-end: 3;}
+		.item10{ grid-row-start:10; grid-row-end:12; grid-column-start: 3; grid-column-end: 4;}
+		.item018{ grid-row-start:5; grid-row-end:6; grid-column-start: 3; grid-column-end: 4;}
+		.item2{grid-row-start:12; grid-row-end:14; grid-column-start: 3; grid-column-end: 4;}
+		.item7{ grid-row-start:12; grid-row-end:14; grid-column-start: 1; grid-column-end: 2;}
+		.item011{ grid-row-start:15; grid-row-end:16; grid-column-start: 2; grid-column-end: 4;}
+		.item11{ grid-row-start:12; grid-row-end:14; grid-column-start: 2; grid-column-end: 3;}
+		.item17{ grid-row-start:16; grid-row-end:18; grid-column-start: 2; grid-column-end: 3;}
+		.item15{ grid-row-start:15; grid-row-end:17; grid-column-start: 1; grid-column-end: 2;}
+
+	}
+@media only screen and (min-width:300px) and (max-width:480px)
+{.main{display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 20px}
+
+		.item01{grid-column-start: 1; grid-column-end: 3; grid-row-start:1; grid-row-end:2;}
+		.item0{ grid-row-start:2; grid-row-end:4; grid-column-start: 1; grid-column-end: 2;}
+		.item06{ grid-row-start:4; grid-row-end:5; grid-column-start: 1; grid-column-end: 3;}
+		.item5{ grid-row-start:2; grid-row-end:4; grid-column-start: 2; grid-column-end: 3;}
+		.item6{ grid-row-start:3; grid-row-end:5; grid-column-start: 5; grid-column-end: 6;}
+		.item8{ grid-row-start:5; grid-row-end:7; grid-column-start: 1; grid-column-end: 2;}
+		.item9{ grid-row-start:5; grid-row-end:7; grid-column-start: 2; grid-column-end: 3;}
+		.item13{ grid-row-start:7; grid-row-end:9; grid-column-start: 1; grid-column-end: 2;}
+		.item14{ grid-row-start:7; grid-row-end:9; grid-column-start: 2; grid-column-end: 3;}
+		.item012{ grid-row-start:9; grid-row-end:10; grid-column-start: 1; grid-column-end: 3;}
+		.item3{grid-column-start: 1; grid-column-end: 2; grid-row-start:10; grid-row-end:12;}
+		.item6{ grid-row-start:10; grid-row-end:12; grid-column-start: 2; grid-column-end: 3;}
+		.item7{ grid-row-start:12; grid-row-end:14; grid-column-start: 1; grid-column-end: 2;}
+		.item011{ grid-row-start:15; grid-row-end:16; grid-column-start: 1; grid-column-end: 3;}
+		.item11{ grid-row-start:12; grid-row-end:14; grid-column-start: 2; grid-column-end: 3;}
+		.item17{ grid-row-start:16; grid-row-end:18; grid-column-start: 2; grid-column-end: 3;}
+		.item15{ grid-row-start:16; grid-row-end:18; grid-column-start: 1; grid-column-end: 2;}
+		.item4{ grid-row-start:18; grid-row-end:19; grid-column-start: 1; grid-column-end: 2;}
+		.item16{ grid-row-start:18; grid-row-end:19; grid-column-start: 2; grid-column-end: 3;}
+		.item10{ grid-row-start:19; grid-row-end:20; grid-column-start: 1; grid-column-end: 2;}
+		.item2{grid-row-start:19; grid-row-end:20; grid-column-start: 2; grid-column-end: 3;}
+		.item1{ grid-row-start:20; grid-row-end:21; grid-column-start: 1; grid-column-end: 2;}
+		.item12{ grid-row-start:20; grid-row-end:21; grid-column-start: 2; grid-column-end: 3;}
+		.item018{ grid-row-start:21; grid-row-end:22; grid-column-start: 1; grid-column-end: 2;}
+
+}
+@media only screen and (max-width:300px)
+{.main{display: flex;
+		flex-wrap: wrap;
+		grid-template-columns: auto;
+		grid-gap: 20px}}
+	</style>
+
+</head>
+<body bgcolor="black">
+<div class="warp">
+	<!-- created logo and menu bar -->
+	<nav class="navbar">
+	<i class="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Pinterest_Logo.svg/2560px-Pinterest_Logo.svg.png" width="150px" height="50px" align="left"></i>
+		<ul class="list">
+			<li><a href="home.html">HOME</a></li>
+			<li><a href="marvel.html">MARVEL</a></li>
+			<li><a href="gallery.html">GALLERY</a></li>
+			<li><a href="nature.html">NATURE</a></li>
+			<li><a href="calculator.html">CALCULATOR</a></li>
+		</ul>
+	</nav>
+	<div class="main">
+		<div class="flex item01"><img src="https://c4.wallpaperflare.com/wallpaper/296/400/37/movie-avengers-infinity-war-black-panther-movie-black-widow-wallpaper-preview.jpg" width=620px height=300px></div>
+
+		<div class="flex item0"><img src="https://i.pinimg.com/564x/e4/87/b1/e487b1936c4b1d8b785664727686efd6.jpg" width=300px height=600px></div>
+		
+		<div class="flex item1"><img src="https://i.pinimg.com/564x/bd/f3/3a/bdf33a8011881f486ac99b0149b93ebd.jpg" width=300px height=600px></div>
+		
+		<div class="flex item2"><img src="https://i.pinimg.com/564x/ad/56/50/ad56506fe8067c42a219cc3672b8b966.jpg"  width=300px height=600px></div>
+		
+		<div class="flex item3"><img src="https://i.pinimg.com/564x/f4/eb/c9/f4ebc96fecc3f4e6c7f7683397ec940e.jpg" width=300px height=600px></div>
+		
+		<div class="flex item4"><img src="https://i.pinimg.com/564x/af/89/e5/af89e5ac6bf59a475723eba4dafdde3d.jpg" width=300px height=600px></div>
+		
+		<div class="flex item5"><img src="https://i.pinimg.com/736x/c2/15/15/c215156bc1b330248b58381cf63ad9ad.jpg" width=300px height=600px></div>
+		
+		<div class="flex item06"><img src="https://wallpaperaccess.com/full/44843.jpg"  width=620px height=300px></div>
+		
+		<div class="flex item6"><img src="https://i.pinimg.com/564x/fa/65/f3/fa65f3e81f1e89d79d8ad7b291d2b6b8.jpg" width=300px height=600px></div>
+		
+		<div class="flex item7"><img src="https://i.pinimg.com/564x/1e/f4/61/1ef4617ab15c4de40916b2d5d0c72124.jpg" width=300px height=600px></div>
+		
+		<div class="flex item8"><img src="https://i.pinimg.com/564x/79/78/da/7978da08bcb94ff60eb3f0c8393c3c6f.jpg" width=300px height=600px></div>
+		
+		<div class="flex item9"><img src="https://i.pinimg.com/564x/2f/f5/cf/2ff5cf2749d6c9fe95a7f16c91654349.jpg" width=300px height=600px></div>
+		
+		<div class="flex item10"><img src="https://i.pinimg.com/564x/e9/20/e4/e920e466720935fce2ea0b25536e6f91.jpg" width=300px height=600px></div>
+		
+		<div class="flex item11"><img src="https://i.pinimg.com/564x/1e/d7/7a/1ed77a02c5b5da68ddbbddd984e1880b.jpg" width=300px height=600px></div>
+		
+		<div class="flex item011"><img src="https://i.pinimg.com/originals/74/c4/a7/74c4a7ee958e1fab46c614f04d1501e9.jpg"  width=620px height=300px></div>
+		
+		<div class="flex item012"><img src="https://c4.wallpaperflare.com/wallpaper/218/93/103/the-avengers-avengers-endgame-captain-america-iron-man-thanos-hd-wallpaper-preview.jpg"  width=620px height=300px></div>
+		
+		<div class="flex item12"><img src="https://i.pinimg.com/564x/b8/a0/a4/b8a0a4462cdc3cc9d87785754d57afb3.jpg" width=300px height=600px></div>
+		
+		<div class="flex item13"><img src="https://i.pinimg.com/564x/e4/64/13/e46413648ff24503660940af3309b92d.jpg" width=300px height=600px></div>
+		
+		<div class="flex item14"><img src="https://i.pinimg.com/564x/1c/ed/26/1ced2689361c4df2281eff950a6c536b.jpg" width=300px height=600px></div>
+		
+		<div class="flex item018"><img src="https://wallpapers.com/images/featured/mghdp4gaqzu4q4us.jpg"  width=300px height=300px></div>
+		
+		<div class="flex item15"><img src="https://i.pinimg.com/564x/39/85/db/3985dbc8346e59b1e998e5ab14e4372e.jpg" width=300px height=600px></div>
+		
+		<div class="flex item16"><img src="https://i.pinimg.com/564x/ad/af/f1/adaff1bf6b0604100f2de3f20bebdb4e.jpg" width=300px height=600px></div>
+		
+		<div class="flex item17"><img src="https://i.pinimg.com/564x/24/d9/ba/24d9babfe96e273ca279c98395a7f30a.jpg" width=300px height=600px></div>
+	</div>
+</div>
+</body>
+</html>
